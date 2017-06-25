@@ -1,0 +1,54 @@
+.ssn {
+  font-family: 'Source Code Pro', monospace;
+}
+
+.container {
+  margin-top: 5%;
+}
+
+body {
+  font-size: 24px;
+}
+
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .container {
+      max-width: 50%;
+    }
+}
+
+#mc_embed_signup{
+  max-width: 500px;
+  border-style: solid;
+  border-width: 1.5px;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 20px;
+  margin-top: 25px;
+}
+
+input[type="text"], input[type="email"], textarea {
+  background-color: #333;
+  color: white;
+}
+
+.btn-primary {
+  background-color: #7F2CCB;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #7F1CBB;
+}
+
+.purple:hover {
+  color: #7F1CBB;
+}
+
+.purple {
+  color: #7F2CCB;
+}
+
+h1 {
+  font-size: 64px;
+}
